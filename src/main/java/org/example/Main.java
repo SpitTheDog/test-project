@@ -8,5 +8,6 @@ public class Main {
         System.out.println("Yet another change");
         System.out.println("One more change");
         System.out.println("Finally");
+        System.out.println("One more for luck");
     }
 }
