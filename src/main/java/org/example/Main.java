@@ -2,8 +2,12 @@ package org.example;
 
 public class Main {
 
-    public String getString(String s) {
+    public String getLargeString(String s) {
         return s.toUpperCase();
+    }
+
+    public String getLittleString(String s) {
+        return s.toLowerCase();
     }
 
     public static void main(String[] args) {
@@ -16,6 +20,7 @@ public class Main {
         System.out.println("One more for luck");
         System.out.println("Definitely the last");
         System.out.println("I lied");
-        System.out.println(new Main().getString("hello"));
+        System.out.println(new Main().getLargeString("hello"));
+        System.out.println(new Main().getLittleString("BON JOUR"));
     }
 }
